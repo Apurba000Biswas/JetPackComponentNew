@@ -1,4 +1,4 @@
-package com.apurba.jetpackcomponentnew;
+package com.apurba.jetpackcomponentnew.withoutDataBinding;
 
 import android.view.ViewGroup;
 

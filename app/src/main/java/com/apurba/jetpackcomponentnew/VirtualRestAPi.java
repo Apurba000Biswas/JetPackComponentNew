@@ -4,6 +4,8 @@ import android.os.Handler;
 
 import androidx.lifecycle.MutableLiveData;
 
+import com.apurba.jetpackcomponentnew.withoutDataBinding.ItemModelOne;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;

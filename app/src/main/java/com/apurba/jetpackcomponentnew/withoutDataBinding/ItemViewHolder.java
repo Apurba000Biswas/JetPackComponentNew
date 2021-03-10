@@ -1,4 +1,4 @@
-package com.apurba.jetpackcomponentnew;
+package com.apurba.jetpackcomponentnew.withoutDataBinding;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,6 +9,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.apurba.jetpackcomponentnew.BaseModel;
+import com.apurba.jetpackcomponentnew.R;
 import com.squareup.picasso.Picasso;
 
 public class ItemViewHolder extends RecyclerView.ViewHolder {

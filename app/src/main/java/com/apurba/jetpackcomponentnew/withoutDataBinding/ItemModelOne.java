@@ -1,6 +1,8 @@
-package com.apurba.jetpackcomponentnew;
+package com.apurba.jetpackcomponentnew.withoutDataBinding;
 
-public class ItemModelOne implements BaseModel{
+import com.apurba.jetpackcomponentnew.BaseModel;
+
+public class ItemModelOne implements BaseModel {
 
     private String name;
     private String url;
