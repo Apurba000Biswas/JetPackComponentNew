@@ -72,6 +72,25 @@ public class MainActivity extends AppCompatActivity {
                 " et Malorum for use in a type specimen book."));
         dataSet.add(new ItemNameImage("This is Name-Image Model", "https://cdnpt01.viewbug.com/media/mediafiles/2016/04/30/65766312_large1300.jpg"));
 
+        List<ItemNameImage> nameImageList = new ArrayList<>();
+        nameImageList.add(new ItemNameImage("This is Name-Image Model", "https://cdnpt01.viewbug.com/media/mediafiles/2016/04/30/65766312_large1300.jpg"));
+        nameImageList.add(new ItemNameImage("This is Name-Image Model", "https://cdnpt01.viewbug.com/media/mediafiles/2016/04/30/65766312_large1300.jpg"));
+        nameImageList.add(new ItemNameImage("This is Name-Image Model", "https://cdnpt01.viewbug.com/media/mediafiles/2016/04/30/65766312_large1300.jpg"));
+        nameImageList.add(new ItemNameImage("This is Name-Image Model", "https://cdnpt01.viewbug.com/media/mediafiles/2016/04/30/65766312_large1300.jpg"));
+        nameImageList.add(new ItemNameImage("This is Name-Image Model", "https://cdnpt01.viewbug.com/media/mediafiles/2016/04/30/65766312_large1300.jpg"));
+        nameImageList.add(new ItemNameImage("This is Name-Image Model", "https://cdnpt01.viewbug.com/media/mediafiles/2016/04/30/65766312_large1300.jpg"));
+        nameImageList.add(new ItemNameImage("This is Name-Image Model", "https://cdnpt01.viewbug.com/media/mediafiles/2016/04/30/65766312_large1300.jpg"));
+        nameImageList.add(new ItemNameImage("This is Name-Image Model", "https://cdnpt01.viewbug.com/media/mediafiles/2016/04/30/65766312_large1300.jpg"));
+        nameImageList.add(new ItemNameImage("This is Name-Image Model", "https://cdnpt01.viewbug.com/media/mediafiles/2016/04/30/65766312_large1300.jpg"));
+
+        dataSet.add(nameImageList);
+
+
+        dataSet.add(new ItemNameImage("This is Name-Image Model", "https://cdnpt01.viewbug.com/media/mediafiles/2016/04/30/65766312_large1300.jpg"));
+        dataSet.add(new ItemNameImage("This is Name-Image Model", "https://cdnpt01.viewbug.com/media/mediafiles/2016/04/30/65766312_large1300.jpg"));
+
+
+
         return dataSet;
     }
 
