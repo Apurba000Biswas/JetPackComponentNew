@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
 import android.widget.ImageView;
 
+import com.apurba.jetpackcomponentnew.withDataBindingFirstWay.DemoPrinter;
 import com.apurba.jetpackcomponentnew.withDataBindingFirstWay.ItemNameImage;
 import com.apurba.jetpackcomponentnew.withDataBindingFirstWay.ItemNameImgDesc;
 import com.apurba.jetpackcomponentnew.withDataBindingFirstWay.ItemNameImgImg;
@@ -28,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
 
         setRecyclerView();
 
+
+        printTheDemoList();
     }
 
 
@@ -102,6 +105,29 @@ public class MainActivity extends AppCompatActivity {
                 .fit()
                 .centerCrop()
                 .into(imageView);
+    }
+
+
+
+
+
+    private void printTheDemoList(){
+        DemoPrinter<DemoPrinter.MyClass<String>> printer = new DemoPrinter<>();
+
+        List<DemoPrinter.MyClass<String>> list = new ArrayList<>();
+        list.add(new DemoPrinter.MyClass<>("This is Data 1"));
+        list.add(new DemoPrinter.MyClass<>("This is Data 2"));
+        list.add(new DemoPrinter.MyClass<>("This is Data 3"));
+        list.add(new DemoPrinter.MyClass<>("This is Data 4"));
+        list.add(new DemoPrinter.MyClass<>("This is Data 5"));
+        list.add(new DemoPrinter.MyClass<>("This is Data 6"));
+        list.add(new DemoPrinter.MyClass<>("This is Data 7"));
+        list.add(new DemoPrinter.MyClass<>("This is Data 8"));
+        list.add(new DemoPrinter.MyClass<>("This is Data 9"));
+        list.add(new DemoPrinter.MyClass<>("This is Data 10"));
+
+        printer.printList(list);
+
     }
 
 }
